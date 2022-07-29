@@ -4,13 +4,10 @@ body {
     font-family: font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
-    background: url(../assets/pexels-ben-mack-6775241.jpg) no-repeat center center fixed;
-black         
+    background-color: 	#fff8dc;
 }
 
-hr{
-    color: white;
-}
+
 
 
 header{
@@ -25,10 +22,12 @@ img {
     max-width: 100%;} 
 
 h1 {
-        color:white;
+        color:black;         
+        text-align: left;
+    }
 
-            
-        
+h2 {
+        text-align: left;
 }
 
 nav {
@@ -41,21 +40,32 @@ nav {
 }
 
 .nav__link {
-    border: 2px solid green;
+    
     border-radius: 15px;
     color: black;
-    background-color: lightgreen;
+    background-color: none;
     text-decoration: none;
     padding: 5px;
     
 }
 
+#header-img{
+    width: max-content;
+}
+
 
 
 #Skills{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+   border-radius: 3px;
+   background-color: aqua;
+   height: auto;
+}
+
+#AboutMe{
+    
+    height: auto;
+    background-color: gray;
+    border-radius: 3px;
 }
 
 #html5-logo{
@@ -73,3 +83,6 @@ nav {
     height: 50px;
 }
 
+footer {
+    
+}
