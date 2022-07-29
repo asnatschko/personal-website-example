@@ -4,14 +4,72 @@ body {
     font-family: font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
+    background: url(../assets/pexels-ben-mack-6775241.jpg) no-repeat center center fixed;
+black         
+}
+
+hr{
+    color: white;
+}
+
+
+header{
+    border-radius: 5px;
+    text-align: center;
+
+    
 }
 
 img {
     border-radius: 5px;
-    max-width: 100%;
-    height: auto;        
-}
+    max-width: 100%;} 
 
 h1 {
-    text-align: center;
+        color:white;
+
+            
+        
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.nav__link {
+    border: 2px solid green;
+    border-radius: 15px;
+    color: black;
+    background-color: lightgreen;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+
+
+#Skills{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#html5-logo{
+    width:  50px;
+    height: 50px;
+}
+
+#css-logo{
+    width: 50px;
+    height: 50px;
+}
+
+#javascript-logo{
+    width: 50px;
+    height: 50px;
+}
+
