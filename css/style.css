@@ -4,9 +4,30 @@ body {
     font-family: font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
-    background-color: 	#CDD3CE;
+    background-color: 	#c9e4e7;
 }
 
+.myButton {
+	box-shadow:inset 1px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:2px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:12px;
+	padding: 7px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:2px;
+}
 
 
 .profile {
@@ -15,6 +36,7 @@ body {
     justify-content: flex-start;
     gap: 50px;
     background-color: white;
+    border-radius: 2px;
 
 }
 
@@ -27,12 +49,17 @@ body {
 
 .kurz{
     padding-left: 10px;
-    border: 1px solid grey;
+    border-radius: 2px;
+    box-shadow: -14px -10px 13px 0px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
 }
 
 img {
-    border-radius: %;
+    border-radius: 2px;
     max-width: 200px;
+
     } 
 
 h1 {
@@ -75,7 +102,7 @@ nav {
    height: auto;
 }
 
-#AboutMe{
+#About{
     
     height: auto;
     background-color: ;
