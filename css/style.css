@@ -4,22 +4,36 @@ body {
     font-family: font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     padding: 20px;
-    background-color: 	#fff8dc;
+    background-color: 	#CDD3CE;
 }
 
 
 
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    background-color: white;
 
-header{
-    border-radius: 5px;
-    text-align: center;
+}
 
-    
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 100px;
+}
+
+.kurz{
+    padding-left: 10px;
+    border: 1px solid grey;
 }
 
 img {
-    border-radius: 5px;
-    max-width: 100%;} 
+    border-radius: %;
+    max-width: 200px;
+    } 
 
 h1 {
         color:black;         
@@ -50,21 +64,21 @@ nav {
 }
 
 #header-img{
-    width: max-content;
+    
 }
 
 
 
 #Skills{
-   border-radius: 3px;
-   background-color: aqua;
+   border-radius: ;
+   background-color:;
    height: auto;
 }
 
 #AboutMe{
     
     height: auto;
-    background-color: gray;
+    background-color: ;
     border-radius: 3px;
 }
 
