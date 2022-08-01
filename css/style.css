@@ -183,9 +183,10 @@ nav {
 }
 
 form {
-    background-color: #eee;
+    background-color:
     width: 370px; /* Breite des Formulars */
     padding: 20px;
+    
     
   }
   label { /* Beschriftung auf eigener Zeile */
