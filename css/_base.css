@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+   
 }
 
 body {
@@ -8,5 +9,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: 	#c9e4e7;
     max-width: 70em;
+  
    
 }
