@@ -50,6 +50,7 @@ body {
 .kurz{
     padding-left: 10px;
     border-radius: 2px;
+    border: 1px gray;
     box-shadow: -14px -10px 13px 0px rgba(0,0,0,0.4);
     display: flex;
     justify-content: space-between;
