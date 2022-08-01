@@ -1,0 +1,17 @@
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 10px;
+       
+}
+
+
+.iconsize{
+    transition: transform .2s;
+}
+
+.iconsize:hover{
+    transform: scale(1.2);
+}
