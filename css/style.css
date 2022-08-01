@@ -30,6 +30,21 @@ body {
 	top:2px;
 }
 
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+       
+}
+
+.iconsize{
+    transition: transform .2s;
+}
+
+.iconsize:hover{
+    transform: scale(1.2);
+}
 
 .profile {
     display: flex;
@@ -61,6 +76,7 @@ body {
 img {
     border-radius: 2px;
     max-width: 200px;
+    
 
     } 
 
