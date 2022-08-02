@@ -29,3 +29,22 @@ a[href^="#Cop"]::before{
     content: "©";
 }
 
+footer{
+    background-color: #6E7E85;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+    }
+
+a:visited{
+    color: yellow;
+}
+
+a:active{
+    background-color: blueviolet;
+}
+
+
+
