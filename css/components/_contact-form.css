@@ -1,5 +1,4 @@
 form {
-    background-color:
     width: 370px; /* Breite des Formulars */
     padding: 20px;
     text-align: center;
@@ -20,5 +19,5 @@ form {
   }
   input:focus,
   textarea:focus {
-    background-color: #f90707;
+    background-color: #07f96c;
   }
