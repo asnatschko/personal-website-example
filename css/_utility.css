@@ -25,3 +25,7 @@ p{
     margin: 10px;
 }
 
+a[href^="#Cop"]::before{
+    content: "©";
+}
+
