@@ -56,23 +56,26 @@
     gap: 50px;
     background-color: white;
     border-radius: 2px;
+    border: 2px solid white;
 
 }
 
 .name{
     font-size: 30px;
     font-weight: bold;
-    padding-top: 25px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: Montserrat;
+    
 }
 
 .kurz{
     padding-left: 10px;
     border-radius: 2px;
-    border: 1px white;
+    border: 2px solid white;
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: #6E7E85;
 }
 
 
