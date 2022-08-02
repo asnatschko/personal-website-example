@@ -19,5 +19,5 @@ form {
   }
   input:focus,
   textarea:focus {
-    background-color: #07f96c;
+    background-color: gray;
   }
